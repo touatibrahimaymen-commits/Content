@@ -1,3 +1,5 @@
+from src.Cont import myadd
+
 
 def test_add():
-    assert add(8,6)==14
+    assert myadd(8,6)==14
